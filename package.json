@@ -1,0 +1,28 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "A tool to scrape plugin information from the PocketMine website to use with a BukGet-like API/database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CubedHost/pokget-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CubedHost/pokget-generator/issues"
+  },
+  "homepage": "https://github.com/CubedHost/pokget-generator#readme",
+  "dependencies": {
+    "async": "^1.4.0",
+    "cheerio": "^0.19.0",
+    "request": "^2.60.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.3",
+    "eslint": "^0.24.1"
+  }
+}
